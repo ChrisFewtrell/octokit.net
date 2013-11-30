@@ -7,6 +7,16 @@ namespace Octokit
     public interface IPullRequestsClient
     {
         /// <summary>
+        /// Gets a single pull request.
+        /// </summary>
+        /// <param name="owner">The owner of the repository</param>
+        /// <param name="name">The name of the repository</param>
+        /// <param name="number">The pull request number</param>
+        /// <returns></returns>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1716:IdentifiersShouldNotMatchKeywords", MessageId = "Get")]
+        Task<PullRequest> Get(string owner, string name, int number);
+
+        /// <summary>
         /// Gets all pull requests for the given repository
         /// </summary>
         /// <remarks>
