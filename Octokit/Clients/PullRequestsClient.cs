@@ -12,10 +12,10 @@ namespace Octokit
 
         public Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name)
         {
-            return GetForRepository(owner, name, new PullRequestRequest());
+            return GetForRepository(owner, name, new PullRequestRequestParameters());
         }
 
-        public Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name, PullRequestRequest request)
+        public Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name, PullRequestRequestParameters request)
         {
             Ensure.ArgumentNotNullOrEmptyString(owner, "owner");
             Ensure.ArgumentNotNullOrEmptyString(name, "name");

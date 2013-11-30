@@ -60,7 +60,7 @@
     <Compile Include="Clients\PullRequestsClient.cs" />
     <Compile Include="Clients\ReferencesClient.cs" />
     <Compile Include="Models\Request\NewReference.cs" />
-    <Compile Include="Models\Request\PullRequestRequest.cs" />
+    <Compile Include="Models\Request\PullRequestRequestParameters.cs" />
     <Compile Include="Models\Request\ReferenceUpdate.cs" />
     <Compile Include="Models\Response\BlobReference.cs" />
     <Compile Include="Clients\IBlobsClient.cs" />

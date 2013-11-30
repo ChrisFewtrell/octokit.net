@@ -1,6 +1,6 @@
 ﻿namespace Octokit
 {
-    public class PullRequestRequest : RequestParameters
+    public class PullRequestRequestParameters : RequestParameters
     {
         public PullRequestState State { get; set; }
         

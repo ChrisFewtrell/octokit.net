@@ -27,6 +27,6 @@ namespace Octokit
         /// <param name="name">The name of the repository</param>
         /// <param name="request">Used to filter the pull requests returned.</param>
         /// <returns></returns>
-        Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name, PullRequestRequest request);
+        Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name, PullRequestRequestParameters request);
     }
 }
