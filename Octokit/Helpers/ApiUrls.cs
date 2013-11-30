@@ -668,5 +668,16 @@ namespace Octokit
         {
             return "repos/{0}/{1}/collaborators".FormatUri(owner, repo);
         }
+
+        /// <summary>
+        /// Returns the <see cref="Uri"/> that returns all the pull requests for the specified repository.
+        /// </summary>
+        /// <param name="owner">The owner of the repository</param>
+        /// <param name="name">The name of the repository</param>
+        /// <returns></returns>
+        public static Uri PullRequests(string owner, string name)
+        {
+            return "repos/{0}/{1}/pulls".FormatUri(owner, name);
+        }
     }
 }

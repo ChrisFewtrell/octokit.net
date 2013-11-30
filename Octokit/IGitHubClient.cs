@@ -20,5 +20,6 @@ namespace Octokit
         INotificationsClient Notification { get; }
         IGitDatabaseClient GitDatabase { get; }
         ITreesClient Tree { get; }
+        IPullRequestsClient PullRequests { get; }
     }
 }
