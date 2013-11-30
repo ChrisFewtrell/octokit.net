@@ -58,6 +58,7 @@
     <Compile Include="Clients\IIssueCommentsClient.cs" />
     <Compile Include="Clients\IIssuesEventsClient.cs" />
     <Compile Include="Clients\IOrganizationMembersClient.cs" />
+    <Compile Include="Clients\IPullRequestsClient.cs" />
     <Compile Include="Clients\IReferencesClient.cs" />
     <Compile Include="Clients\IssueCommentsClient.cs" />
     <Compile Include="Clients\IssuesClient.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Clients\ITeamsClient.cs" />
     <Compile Include="Clients\MilestonesClient.cs" />
     <Compile Include="Clients\OrganizationMembersClient.cs" />
+    <Compile Include="Clients\PullRequestsClient.cs" />
     <Compile Include="Clients\ReferencesClient.cs" />
     <Compile Include="Clients\StarredClient.cs" />
     <Compile Include="Clients\TagsClient.cs" />
@@ -90,6 +92,7 @@
     <Compile Include="Models\Request\NewTreeItem.cs" />
     <Compile Include="Models\Request\NewTeam.cs" />
     <Compile Include="Models\Request\Permission.cs" />
+    <Compile Include="Models\Request\PullRequestRequestParameters.cs" />
     <Compile Include="Models\Request\ReferenceUpdate.cs" />
     <Compile Include="Models\Request\RequestParameters.cs" />
     <Compile Include="Models\Request\StarredRequest.cs" />
@@ -119,6 +122,7 @@
     <Compile Include="Models\Response\PullRequest.cs" />
     <Compile Include="Models\Request\RepositoryIssueRequest.cs" />
     <Compile Include="Models\Request\MilestoneRequest.cs" />
+    <Compile Include="Models\Response\PullRequestDetails.cs" />
     <Compile Include="Models\Response\Reference.cs" />
     <Compile Include="Models\Response\Signature.cs" />
     <Compile Include="Models\Response\TagObject.cs" />
