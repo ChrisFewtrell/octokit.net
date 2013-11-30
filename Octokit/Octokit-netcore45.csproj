@@ -76,6 +76,7 @@
     <Compile Include="Clients\INotificationsClient.cs" />
     <Compile Include="Clients\IOrganizationMembersClient.cs" />
     <Compile Include="Clients\IOrganizationsClient.cs" />
+    <Compile Include="Clients\IPullRequestsClient.cs" />
     <Compile Include="Clients\IReferencesClient.cs" />
     <Compile Include="Clients\IReleasesClient.cs" />
     <Compile Include="Clients\IRepositoriesClient.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Clients\NotificationsClient.cs" />
     <Compile Include="Clients\OrganizationMembersClient.cs" />
     <Compile Include="Clients\OrganizationsClient.cs" />
+    <Compile Include="Clients\PullRequestsClient.cs" />
     <Compile Include="Clients\ReferencesClient.cs" />
     <Compile Include="Clients\ReleasesClient.cs" />
     <Compile Include="Clients\RepositoriesClient.cs" />
@@ -170,6 +172,7 @@
     <Compile Include="Models\Request\NewTreeItem.cs" />
     <Compile Include="Models\Request\NewTeam.cs" />
     <Compile Include="Models\Request\Permission.cs" />
+    <Compile Include="Models\Request\PullRequestRequestParameters.cs" />
     <Compile Include="Models\Request\ReferenceUpdate.cs" />
     <Compile Include="Models\Request\ReleaseUpdate.cs" />
     <Compile Include="Models\Request\RepositoryIssueRequest.cs" />
@@ -206,6 +209,7 @@
     <Compile Include="Models\Response\Organization.cs" />
     <Compile Include="Models\Response\Plan.cs" />
     <Compile Include="Models\Response\PullRequest.cs" />
+    <Compile Include="Models\Response\PullRequestDetails.cs" />
     <Compile Include="Models\Response\Readme.cs" />
     <Compile Include="Models\Response\ReadmeResponse.cs" />
     <Compile Include="Models\Response\Reference.cs" />
