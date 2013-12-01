@@ -18,7 +18,7 @@ namespace Octokit
             return ApiConnection.Get<PullRequest>(ApiUrls.PullRequest(owner, name, number));
         }
 
-        public Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name)
+        public Task<IReadOnlyList<PullRequest>> GetOpenPullRequestsForRepository(string owner, string name)
         {
             return GetForRepository(owner, name, new PullRequestRequestParameters());
         }

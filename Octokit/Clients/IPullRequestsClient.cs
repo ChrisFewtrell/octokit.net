@@ -17,7 +17,7 @@ namespace Octokit
         Task<PullRequest> Get(string owner, string name, int number);
 
         /// <summary>
-        /// Gets all pull requests for the given repository
+        /// Gets all open pull requests for the given repository
         /// </summary>
         /// <remarks>
         /// http://developer.github.com/v3/pulls/#list-pull-requests
@@ -25,10 +25,10 @@ namespace Octokit
         /// <param name="owner">The owner of the repository</param>
         /// <param name="name">The name of the repository</param>
         /// <returns></returns>
-        Task<IReadOnlyList<PullRequest>> GetForRepository(string owner, string name);
+        Task<IReadOnlyList<PullRequest>> GetOpenPullRequestsForRepository(string owner, string name);
 
         /// <summary>
-        /// Gets all pull requests for the given repository
+        /// Gets pull requests for the given repository. 
         /// </summary>
         /// <remarks>
         /// http://developer.github.com/v3/pulls/#list-pull-requests
