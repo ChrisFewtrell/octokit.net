@@ -58,7 +58,7 @@ namespace Octokit
         /// </summary>
         public int Comments { get; set; }
 
-        public PullRequestDetails PullRequest { get; set; }
+        public PullRequestUrls PullRequest { get; set; }
         
         /// <summary>
         /// The date the issue was closed if closed.

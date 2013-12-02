@@ -210,7 +210,7 @@
     <Compile Include="Models\Response\Organization.cs" />
     <Compile Include="Models\Response\Plan.cs" />
     <Compile Include="Models\Response\PullRequest.cs" />
-    <Compile Include="Models\Response\PullRequestDetails.cs" />
+    <Compile Include="Models\Response\PullRequestUrls.cs" />
     <Compile Include="Models\Response\Readme.cs" />
     <Compile Include="Models\Response\ReadmeResponse.cs" />
     <Compile Include="Models\Response\Reference.cs" />

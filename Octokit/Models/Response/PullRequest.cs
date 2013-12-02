@@ -2,7 +2,7 @@
 
 namespace Octokit.Response
 {
-    public class PullRequest : PullRequestDetails
+    public class PullRequest : PullRequestUrls
     {
         public Uri IssueUri { get; set; }
         public Uri StatusesUri { get; set; }
