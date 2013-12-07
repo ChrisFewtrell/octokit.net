@@ -20,7 +20,7 @@ namespace Octokit.Response
         public string MergeCommitSha { get; set; }
         public bool Merged { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", MessageId = "Mergeable")]
-        public bool Mergeable { get; set; }
+        public bool? Mergeable { get; set; }
         public User MergedBy { get; set; }
         public int Comments { get; set; }
         public int Commits { get; set; }
